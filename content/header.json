@@ -1,6 +1,6 @@
 {
   "marketing_stripe": {
-    "text": "Aproveite nossos descontos de até 40%!",
+    "text": "MÊS DA BLACK FRIDAY, 50% DE DESCONTO E 6X SEM JUROS !",
     "link": "/promotion"
   },
   "contacts_stripe": {
@@ -18,7 +18,9 @@
     "socials": true
   },
   "categories_list": {
-    "featured": [],
+    "featured": [
+      "/colecoes?Coleções"
+    ],
     "random": 6,
     "full_width": false
   },
