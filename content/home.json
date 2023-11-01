@@ -8,40 +8,52 @@
       "full_width": false,
       "slides": [
         {
-          "img": "/img/uploads/rect89.webp",
-          "link": "/headset",
-          "alt": "Headset banner",
-          "start": "2020-04-11T05:54:06.750Z",
-          "end": "2020-12-31T03:00:00.000Z",
-          "mobile_img": "/img/uploads/headphone.webp"
-        },
-        {
-          "img": "/img/uploads/banner2.webp",
-          "alt": "Banner sample two",
-          "start": "",
-          "end": "",
-          "mobile_img": "/img/uploads/passion.webp"
+          "img": "/img/uploads/banner.png",
+          "link": "",
+          "alt": "Banner",
+          "mobile_img": "/img/uploads/banner.png"
         }
       ]
     },
     {
-      "type": "info-bar",
-      "enabled": true
-    },
-    {
-      "type": "collection-shelf",
+      "type": "shelfs-nav",
       "shuffle": true,
-      "collection_id": null,
-      "sort": "offers",
-      "title": "",
-      "headless": false,
-      "limit": 12,
-      "page": 1
+      "limit": 8,
+      "page": 1,
+      "collection_ids": [
+        "653023b22cd6b6595980216b:categories:Vestidos:/vestidos",
+        "653401402cd6b65959845c65:categories:Camisas:/camisas",
+        "65304aee2cd6b65959807f0f:categories:Conjuntos:/conjunto"
+      ],
+      "shelfs_title": "Novidades",
+      "sort": "news"
     },
     {
-      "type": "page-title",
-      "title": "Loja demo da E-Com Plus",
-      "description": "Loja de demonstração e testes da plataforma E-Com Plus e Storefront. Todos os produtos, preços e informações são meramente ilustrativos."
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/banner-1.png",
+          "link": "/"
+        },
+        {
+          "img": "/img/uploads/banner-2.png",
+          "link": "/"
+        }
+      ]
+    },
+    {
+      "type": "shelfs-nav",
+      "shuffle": true,
+      "limit": 8,
+      "page": 1,
+      "collection_ids": [
+        "6533ec9e2cd6b65959844999:categories:Vestidos:/vestido",
+        "6533ec642cd6b65959844959:categories:Blusas:/blusas",
+        "6533ecb02cd6b659598449bc:categories:Macacão:/macacao",
+        "6533ecec2cd6b65959844a11:categories:Short:/short"
+      ],
+      "shelfs_title": "Promoções - Black Friday",
+      "sort": "news"
     }
   ]
 }

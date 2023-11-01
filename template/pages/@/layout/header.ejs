@@ -85,24 +85,6 @@ const isCentralizedLogo = header.centralized_logo
               </div>
             <% } %>
           </nav>
-          <% if (header.contacts_stripe.phone_wpp) { %>
-            <div class="top-bar__contacts-container">
-              <% if (contacts.whatsapp) { %>
-                <a href="javascript:;" target="_blank" rel="noopener" class="whatsapp-link"
-                  data-tel="<%= contacts.whatsapp.replace(/\D/g, '') %>">
-                  <i class="i-whatsapp"></i>
-                  <%= contacts.whatsapp %>
-                </a>
-                <% } %>
-              <% if (contacts.phone) { %>
-                <a href="tel:+<%= contacts.phone.replace(/\D/g, '') %>" target="_blank" rel="noopener">
-                  <i class="i-phone"></i>
-                  <%= contacts.phone %>
-                </a>
-              <% } %>
-            </div>
-            
-          <% } %>
         </div>
         <% if (header.contacts_stripe.socials) { %>
           <div class="col-auto">
@@ -152,7 +134,7 @@ const isCentralizedLogo = header.centralized_logo
           aria-label="<%= _.dictionary('myAccount') %>"
         >
           <button
-            class="d-lg-none btn btn-lg"
+            class="btn btn-lg"
             id="mobile-search-btn"
             type="button"
             data-toggle="collapse"
@@ -162,7 +144,7 @@ const isCentralizedLogo = header.centralized_logo
             aria-controls="search-bar"
             title="<%= _.dictionary('searchProducts') %>"
           >
-            <i class="i-search"></i>
+            <img src="/img/uploads/search.svg" alt="Pesquisa">
           </button>
 
           <a
@@ -172,7 +154,7 @@ const isCentralizedLogo = header.centralized_logo
             href="/app/#/account/"
             title="<%= _.dictionary('myAccount') %>"
           >
-            <i class="i-user"></i>
+            <img src="/img/uploads/user.svg" alt="Usuario">
           </a>
           <a
             id="cart-button"
@@ -181,7 +163,7 @@ const isCentralizedLogo = header.centralized_logo
             href="/app/#/cart"
             title="<%= _.dictionary('openCart') %>"
           >
-            <i class="i-shopping-bag"></i>
+            <img src="/img/uploads/cart.svg" alt="Carrinho de compras">
             <span id="cart-count" class="badge badge-primary"></span>
           </a>
         </div>
@@ -226,7 +208,7 @@ const isCentralizedLogo = header.centralized_logo
               class="header__search-btn"
               aria-label="<%= _.dictionary('searchProducts') %>"
             >
-              <i class="i-search"></i>
+              <img src="/img/uploads/search.svg" alt="Pesquisa">
             </button>
             <div id="instant-search">
               <!--
@@ -235,6 +217,25 @@ const isCentralizedLogo = header.centralized_logo
               -->
             </div>
           </form>
+
+          <% if (header.contacts_stripe.phone_wpp) { %>
+            <div class="top-bar__contacts-container">
+              <% if (contacts.whatsapp) { %>
+                <a href="javascript:;" target="_blank" rel="noopener" class="whatsapp-link"
+                  data-tel="<%= contacts.whatsapp.replace(/\D/g, '') %>">
+                  <i class="i-whatsapp"></i>
+                  <%= contacts.whatsapp %>
+                </a>
+                <% } %>
+              <% if (contacts.phone) { %>
+                <a href="tel:+<%= contacts.phone.replace(/\D/g, '') %>" target="_blank" rel="noopener">
+                  <i class="i-phone"></i>
+                  <%= contacts.phone %>
+                </a>
+              <% } %>
+            </div>
+            
+          <% } %>
 
           <% if (_.settings.domain) { %>
             <script type="application/ld+json"><%-
