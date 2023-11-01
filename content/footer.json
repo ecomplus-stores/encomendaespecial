@@ -24,6 +24,10 @@
     {
       "src": "/img/uploads/ssl-safe.png",
       "alt": "Secure connection"
+    },
+    {
+      "src": "/img/uploads/ssl@2x.png",
+      "alt": "Secure connection"
     }
   ],
   "payment_methods": {
