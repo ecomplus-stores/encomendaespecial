@@ -4,3 +4,5 @@
         $('#search-input').trigger('focus')
     })
 } */
+
+window.$ecomConfig.set('default_img_size', 'zoom')
