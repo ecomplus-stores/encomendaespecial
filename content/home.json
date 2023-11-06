@@ -8,10 +8,12 @@
       "full_width": false,
       "slides": [
         {
-          "img": "/img/uploads/banner.png",
+          "img": "/img/uploads/banner-pc-1-.png",
           "link": "",
           "alt": "Banner",
-          "mobile_img": "/img/uploads/banner.png"
+          "mobile_img": "/img/uploads/banner-mobile-1-.png",
+          "start": "",
+          "end": ""
         }
       ]
     },
