@@ -1,11 +1,10 @@
 {
   "marketing_stripe": {
-    "text": "Frete Grátis em Compras acima de R$150,00",
+    "text": "Frete Grátis em Compras acima de R$599,00",
     "link": ""
   },
   "contacts_stripe": {
-    "pages": [
-    ],
+    "pages": [],
     "phone_wpp": true,
     "socials": false
   },
