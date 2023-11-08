@@ -34,11 +34,7 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/banner-1.png",
-          "link": "/"
-        },
-        {
-          "img": "/img/uploads/banner-2.png",
+          "img": "/img/uploads/banner-segundario-2-.png",
           "link": "/"
         }
       ]
