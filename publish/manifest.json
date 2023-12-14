@@ -1,0 +1,37 @@
+{
+  "icons": [
+    {
+      "src": "/icon_512x512.1cf218848c3f42f0b3d051c19a7615c8.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/icon_384x384.e219b81e59d930244a474a4ecf570f17.jpeg",
+      "sizes": "384x384",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/icon_192x192.75f7ecddcd18021ae100da60cd457df8.jpeg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/icon_128x128.a0a68816ae86468eeb00e5f13562bb3c.jpeg",
+      "sizes": "128x128",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/icon_96x96.7f0e49608fe78cc2d980a3b3d39232f6.jpeg",
+      "sizes": "96x96",
+      "type": "image/jpeg"
+    }
+  ],
+  "name": "Encomenda Especial - Moda Feminina em Goiânia para todo o Brasil",
+  "short_name": "encomendaespecial",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "encomendaespecial",
+  "background_color": "#ffffff",
+  "theme_color": "#222831"
+}
